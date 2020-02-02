@@ -77,6 +77,9 @@ public class Database
                 ins.insert(comm,str);
                 break;
             case "update":
+                history(temp);
+                Update up=new Update();
+                up.update(comm,str);
                 break;
             case "drop":
                 history(temp);

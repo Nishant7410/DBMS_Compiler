@@ -1,0 +1,2 @@
+
+update ghh set ghd = hjk
