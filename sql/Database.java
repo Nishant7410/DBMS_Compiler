@@ -16,7 +16,7 @@ public class Database
    
     public static void main(String ar[])throws IOException
     {
-        System.out.println("Only for create,insert,select,drop,load,print,history");
+        System.out.println("Only for create,insert,select,drop,update,load,print,history,delete history");
         Scanner sc=new Scanner(System.in);
         ArrayList<ArrayList<String>>alist=new ArrayList<ArrayList<String>>();
         while(true)
